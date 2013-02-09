@@ -3,8 +3,8 @@ PBKDF2-Implementation
 
 PBKDF2 Implementation in PHP
 
-Copyright (c) 2013, Jeff Steinport
-All rights reserved.
+Original code from the article at http://www.itnewb.com/tutorial/Encrypting-Passwords-with-PHP-for-Storage-Using-the-RSA-PBKDF2-Standard
+
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met: 
@@ -29,3 +29,4 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 The views and conclusions contained in the software and documentation are those
 of the authors and should not be interpreted as representing official policies, 
 either expressed or implied, of the FreeBSD Project.
+
