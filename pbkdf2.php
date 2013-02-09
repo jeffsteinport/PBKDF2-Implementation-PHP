@@ -1,6 +1,7 @@
 <?php
     /** PBKDF2 Implementation (described in RFC 2898)
-     *
+     *  See license at https://github.com/jeffsteinport/PBKDF2-Implementation
+     * 
      *  @param string p password
      *  @param string s salt
      *  @param int c iteration count (use 1000 or higher)
