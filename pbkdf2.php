@@ -1,3 +1,4 @@
+<?php
     /** PBKDF2 Implementation (described in RFC 2898)
      *
      *  @param string p password
@@ -32,3 +33,4 @@
         # Return derived key of correct length
         return substr($dk, 0, $kl);
     }
+?>
