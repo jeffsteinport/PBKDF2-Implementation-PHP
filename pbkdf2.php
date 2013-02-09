@@ -5,11 +5,11 @@
      *  @param string s salt
      *  @param int c iteration count (use 1000 or higher)
      *  @param int kl derived key length
-     *  @param string a hash algorithm
+     *  @param string a hash algorithm (defaults to whirlpool)
      *
      *  @return string derived key
     */
-    function pbkdf2( $p, $s, $c, $kl, $a = 'sha256' ) {
+    function pbkdf2( $p, $s, $c, $kl, $a = 'whirlpool' ) {
      
         $hl = strlen(hash($a, null, true)); # Hash length
         $kb = ceil($kl / $hl);              # Key blocks to compute
