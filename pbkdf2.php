@@ -8,7 +8,7 @@
      *  @param int kl derived key length
      *  @param string a hash algorithm (defaults to whirlpool)
      *
-     *  Returns binary output that can be used to encryption keys.
+     *  Returns binary output that can be used as an encryption key.
      *  Use base64_encode to output plain text.
      *  @return string derived key
      *  
